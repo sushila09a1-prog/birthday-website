@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Happy Birthday Shaily!</title>
 
 <style>
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  background: #CEA2FD;
   overflow: hidden;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -32,6 +33,7 @@ h1 {
   font-size: 18px;
   color: #333;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  line-height: 1.6;
 }
 
 /* Balloons */
@@ -58,6 +60,30 @@ h1 {
   from { transform: translateY(0); }
   to { transform: translateY(-110vh); }
 }
+
+/* 📱 Mobile Friendly */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  .message {
+    font-size: 16px;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .balloon {
+    width: 45px;
+    height: 60px;
+  }
+
+  .balloon::after {
+    height: 30px;
+    left: 22px;
+  }
+}
 </style>
 </head>
 
@@ -66,9 +92,8 @@ h1 {
 <h1>🎉 Happy Birthday, Shaily! 🎉</h1>
 
 <div class="message">
-  Happy Birthday to my favorite girl 🎉🌸<br><br>
-  May your day be filled with smiles, laughter, and all the happiness you deserve.<br>
-  Keep shining, keep being amazing, and may all your dreams slowly come true.<br><br>
+  Happy Birthday mahila Mitra 🎉🌸<br><br>
+  Wishing you a day filled with smiles, laughter, and everything that makes you happy. May this new year of your life bring you confidence to chase your dreams, strength to overcome challenges, and lots of beautiful memories to cherish. On this special day, 09 March, may you be surrounded by love, positivity, and good vibes. Stay kind, stay bright, and keep shining the way you always do. Have an amazing birthday and a wonderful year ahead! 💐✨<br><br>
   — I wish we meet again 💫
 </div>
 
